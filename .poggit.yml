@@ -1,0 +1,10 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/FlyPhoenix52/API
+build-by-default: true
+branches:
+- main
+projects:
+  FormAPI-master:
+    path: FormAPI-master/
+    model: virion
+    type: library
+...
